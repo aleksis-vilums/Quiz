@@ -19,7 +19,7 @@ public class Admissions {
             System.out.println("Accepted because one category is elite");
         } else if (sat >= 1400 && rank >= 90 || sat >= 1400 && awards >= 8 || rank >= 90 && awards >= 8){
             System.out.println("Accepted because 2 or more metrics is solid");
-        } else if (name == "Padjen"){
+        } else if ("Padjen".equals(name)){
             System.out.println("Accepted because name is Padjen");
         } else if (sat >= 1200 && rank >= 85 && awards >= 3 && residence != "Florida"){
             System.out.println("Accepted because no metric is lower than acceptable");
