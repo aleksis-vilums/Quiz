@@ -6,14 +6,15 @@ public class Admissions {
 
         System.out.print("Enter Last name: ");
         String name = scanner.nextLine();
+        System.out.print("Enter Residence: ");
+        String residence = scanner.nextLine();
 		System.out.print("Enter SAT score: ");
         int sat = scanner.nextInt();
         System.out.print("Enter class rank: ");
         int rank = scanner.nextInt();
         System.out.print("Enter Award amount: ");
         int awards = scanner.nextInt();
-        System.out.print("Enter Residence: ");
-        String residence = scanner.nextLine();
+
 
 		if (sat >= 1500 || rank >= 95 || awards >= 10 || residence == "Colorado"){
             System.out.println("Accepted because one category is elite");
